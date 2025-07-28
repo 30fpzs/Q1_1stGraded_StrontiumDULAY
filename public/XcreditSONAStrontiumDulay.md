@@ -35,5 +35,4 @@
     Answer: Are these claims illusion or reality?
 
 
-
 [Link for SONA 2025](https://www.youtube.com/watch?v=LaOCAHRIQ1w)
