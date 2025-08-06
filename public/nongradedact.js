@@ -1,0 +1,10 @@
+logo.style.position = "absolute";
+logo.style.top = "20px";
+logo.style.right = "20px";
+logo.style.width = "100px";
+let age = 14;
+let maxAge = 100;
+let numPerDay = 2;
+totalRequired = (numPerDay * 365) * (maxAge - age)
+document.getElementById("Header1").innerHTML = "Hello! <br> This is the result on how many times I can eat my favorite snack, <br> before my ripe old age of 100 years old!"
+document.getElementById("Header2").innerHTML = "I will need " + totalRequired + " cookies to last you until the ripe old age of " + maxAge + "!";
