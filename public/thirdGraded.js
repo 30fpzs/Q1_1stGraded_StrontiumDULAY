@@ -9,6 +9,16 @@ function checkIt()
     {
         resultOutput.innerHTML = "ERROR - Please only enter a number between 1 and 100.";
     }
+    else if ((userGuess > dNumber) && (userGuess <= dNumber + 10))
+    {
+        resultOutput.innerHTML = "Result: Your guess is close but your guess is still higher. Go lower!";
+
+    }
+    else if ((userGuess < dNumber) && (userGuess >= dNumber - 10))
+    {
+        resultOutput.innerHTML = "Result: Your guess is close but your guess is still lower. Go higher!";
+
+    }
     else if (userGuess < dNumber)
     {
         resultOutput.innerHTML = "Result: Your guess is too low. Go higher!";
@@ -25,7 +35,4 @@ function checkIt()
         
     }
 }   
-logo.style.position = "absolute";
-logo.style.top = "20px";
-logo.style.right = "20px";
-logo.style.width = "100px";
+
