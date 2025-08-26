@@ -7,12 +7,42 @@ body
   font-size: 25px;
 }
 
+header 
+{
+  background-color: lightgoldenrodyellow;
+  color: black;
+  padding: 2em;
+  text-align: center;
+}
+
+section 
+{
+  text-align: center;
+  background-color: #B0C4DE;
+  padding: 1.5em;
+}
+
+footer 
+{
+  text-align: center;
+  padding: 1em;
+  background-color: lightgoldenrodyellow;
+}
+
 #logo
 {
   position: absolute;
-  top: 70px;
-  right: 70px;
+  top: 10px;
+  right: 10px;
   width: 70px;
   height: auto;
 }
 
+#photo
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: auto;
+}

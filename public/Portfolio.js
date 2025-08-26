@@ -1,9 +1,10 @@
-document.getElementById("Header1").innerHTML = "Hello!<br> My name is<br> Mateo Uno Dulay.";
-document.getElementById("Header2").textContent = "This is a simple webpage created for my first graded activity in CS3.";
-document.getElementById("Paragraph1").innerHTML = "My name is Uno, and I am from Grade 9-Strontium!<br> I like playing games and also reading the code of the games to understand how they work.<br> I am playful and carefree at times, but I can be professional and serious when needed.<br> I hope you enjoy my webpage!";
-logo.style.position = "absolute";
+document.getElementById("Header1").innerHTML = "Mateo Uno F. Dulay | 9-Strontium | August 26, 2025";
+document.getElementById("Paragraph1").innerHTML = "Dying is easy, young man, living is harder.";
+document.getElementById("Header2").innerHTML = "About Me:";
+document.getElementById("Header3").innerHTML = "Hi! My name is Mateo Uno Dulay! <br> I like musicals such as Hamilton and Epic the Musical and videogames like Valorant!";
+document.getElementById("Paragraph2").innerHTML = "Musicals like Hamilton and Epic the Musical! <br><br> Computer Programming! <br><br> Listening to Tyler, The Creator and other similar music artists! <br><br> I also love everything and anything Matcha!";
 logo.style.top = "20px";
 logo.style.right = "20px";
 logo.style.width = "100px";
-document.getElementById("Header3").innerHTML = "More about me:";
+
 
