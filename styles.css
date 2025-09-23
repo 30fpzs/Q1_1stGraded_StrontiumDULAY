@@ -4,4 +4,22 @@ body
   font-family: calibri;
   color: rgb(0, 0, 0);
   background-color: lightgoldenrodyellow;
+  text-align: center;
+  font-size: 30px;
+}
+
+button
+{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #0d728b; 
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+button:hover
+{
+  background: rgb(126, 157, 88); 
 }
